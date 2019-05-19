@@ -26,6 +26,10 @@
   padding: 10px;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @media screen and (max-width: 768px) {
     nav > .menu#mymenu { 
       display: none;
@@ -83,7 +87,7 @@
       padding: 10px;
   }
       
-div > .menu {
+nav > .menu#mymenu {
 float: right; 
 position: absolute;
 
