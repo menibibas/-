@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="">My Company</a>
+            <div class="menu" id="myMenu">
+                <a href="">Projects</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+    <div class="row main-img col-12">
+        <img src="https://i.ytimg.com/vi/Xv-vRx81s9A/maxresdefault.jpg" alt="" />
+    </div>
+    <div class="row projects">
+        <h2>Projects</h2>
+        <div class="project col-4">
+            <h4>Small House</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. </p>
+            <img src="https://cdn.arstechnica.net/wp-content/uploads/2016/01/img_02511-640x4
+80.jpg" alt="" />
+            <button>Read More</button>
+        </div>
+        <div class="project col-4">
+            <h4>Round House</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. </p>
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/6c/dd/03/6cdd03cc0919bf34779
+f6c62d37c65b3.jpg" alt="" />
+            <button>Read More</button>
+        </div>
+        <div class="project col-4">
+            <h4>Castle House</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. </p>
+            <img src="https://s-media-cache-ak0.pinimg.com/736x/2a/89/0d/2a890df371425fde3d5
+51aea6caeccc3--big-houses-dream-houses.jpg" alt="" />
+            <button>Read More</button>
+        </div>
+    </div>
+    <footer>
+        Powered by
+        <a href="www.appleseeds.org.il" target="_blank">Appleseeds</a>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myMenu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+</body>
+
+</html>
